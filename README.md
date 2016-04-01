@@ -1,4 +1,4 @@
-# gitlab-ce
+# gitlab-ce [![Build Status](https://travis-ci.org/rigoford/gitlab-ce.svg?branch=master)](https://travis-ci.org/rigoford/gitlab-ce)
 Basic GitLab Community Edition
 
 Basic docker image of GitLab, Comunity Edition.
