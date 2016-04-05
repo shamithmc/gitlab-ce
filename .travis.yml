@@ -14,7 +14,7 @@ before_install:
   - docker run --detach --name gitlab-ce rigoford/gitlab-ce
 
 script:
-  - java -jar whitesource-docker-agent-1.0.2.jar
+#  - java -jar whitesource-docker-agent-1.0.2.jar
 
 after_script:
   - docker stop gitlab-ce
