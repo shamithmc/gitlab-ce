@@ -11,10 +11,11 @@ before_install:
   - DOCKER_OPTS="-H tcp://127.0.0.1:2375 -H unix:///var/run/docker.sock"
   - docker -H tcp://127.0.0.1:2375 version
   - docker build -t rigoford/gitlab-ce .
-  - docker run --detach --name docker-example rigoford/gitlab-ce
+  - docker run --detach --name gitlab-ce rigoford/gitlab-ce
 
 script:
   - java -jar whitesource-docker-agent-1.0.2.jar
 
 after_script:
   - docker stop gitlab-ce
+  - docker rm gitlab-ce

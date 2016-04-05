@@ -17,3 +17,8 @@ local.properties
 .loadpath
 .project
 .externalToolBuilders/
+
+### Maven template
+target/
+
+# Created by .ignore support plugin (hsz.mobi)
