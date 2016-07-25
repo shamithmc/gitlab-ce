@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Martin Ford <ford.j.martin@gmail.com>
+MAINTAINER Shamith
 
 ENV GITLAB_FLAVOUR ce
 ENV GITLAB_VERSION 8.9.6-${GITLAB_FLAVOUR}.0
